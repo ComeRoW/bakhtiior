@@ -1,0 +1,268 @@
+@keyframes new {
+    25% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+body {
+    background: #181733;
+}
+
+#mainText {
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    color: #fdc52c;
+}
+
+.href_text {
+    color: #fdc52c;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.menues{
+    text-align: center;
+    border: 2px solid #fdc52c;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+
+.menu {
+    margin: 0 10px;
+    color: #fdc52c;
+    display: inline-block;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.menu:hover .href_text {
+    transition: 0.5s ease-in;
+    background: #fdc52c;
+    color: #181733;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.main_background {
+    text-align: center;
+}
+
+.img_back {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: 30px solid rgb(48, 48, 209);
+    border-left: 30px solid rgb(235, 30, 30);
+    width: 1000px;
+    height: 425px;
+}
+
+.main_h1 {
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    color: #181733;
+}
+
+.news {
+    background: #dac8c8;
+    border-radius: 10px;
+}
+
+.photo {
+    width: 700px;
+    height: 370px;
+}
+
+.match {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 30px;
+    font-family: monospace;
+    color: #ffffff;
+}
+
+.one {
+    display: inline-block;
+}
+
+.two {
+    display: inline-block;
+}
+
+.goalmessi {
+    display: inline-block;
+    width: 700px;
+    background: #181733;
+    overflow: hidden;
+    height: 500px;
+    vertical-align: top;
+}
+
+.goalmessi:hover {
+    height: 600px;
+    transition: 0.5s ease-in;
+}
+
+.luisout {
+    display: inline-block;
+    width: 700px;
+    background: #181733;
+    overflow: hidden;
+    height: 500px;
+    vertical-align: top;
+}
+
+.luisout:hover {
+    height: 600px;
+    transition: 0.5s ease-in;
+}
+
+.text {
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+    color: #ffffff;
+}
+
+.championlaliga {
+    display: inline-block;
+    width: 700px;
+    background: #181733;
+    overflow: hidden;
+    height: 500px;
+    vertical-align: top; 
+}
+
+.championlaliga:hover {
+    height: 600px;
+    transition: 0.5s ease-in;
+}
+
+.barcaVsliver {
+    display: inline-block;
+    width: 700px;
+    background: #181733;
+    overflow: hidden;
+    height: 500px;
+    vertical-align: top;
+}
+
+
+.barcaVsliver:hover {
+    height: 600px;
+    transition: 0.5s ease-in;
+}
+
+.menuesNews {
+    width: 1500px;
+    text-align: center;
+}
+
+.lastmatches {
+    background: #dac8c8;
+    border-radius: 10px;
+}
+
+.menuMatch {
+    width: 1500px;
+    text-align: center;
+}
+
+.matches {
+    display: inline-block;
+    text-align: center;
+    width: 1200px;
+    background: #181733;
+}
+
+.matchphoto {
+    width: 1000px;
+    height: 560px;
+}
+
+.videomatch {
+    width: 800px;
+    height: 650px;
+}
+
+.toor {
+    text-align: center;
+    font-size: 28px;
+    font-family: monospace;
+    color: #181733;
+}
+
+.AAA {
+    font-family: monospace;
+    text-align: center;
+    font-size: 50px;
+    color: #fdc52c;
+}
+
+.main_menu {
+    text-align: center;
+}
+
+.main_menu_text {
+    font-family: monospace;
+    font-size: 30px;
+    color: #181733;
+    background: #dac8c8;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.copa_del_rey {
+    border-radius: 10px;
+    background: #dac8c8;
+    padding: 10px;
+    text-align: center;   
+}
+
+.final {
+    color: #181733;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+.maintext_final {
+    color: #181733;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.maintext_final_A {
+    color: #181733;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.matchphoto_final {
+    width: 1000px;
+    height: 560px;
+    padding: 10px;
+    border: 5px solid #181733;
+}
+
+.text_goal {
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+    color: #181733;
+}
+
+.hr {
+    border: 5px solid #181733;
+    border-spacing: 0px 0px;
+    background: #181733;
+}

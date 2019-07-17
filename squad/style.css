@@ -1,0 +1,114 @@
+body {
+    background: #181733;
+}
+
+.mainText {
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    color: #fdc52c;
+    text-decoration: none;
+}
+
+.squad_menu {
+    background: #dac8c8;
+    border-radius: 10px;
+}
+
+.squad {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    color: #181733;
+}
+
+.main_background {
+    text-align: center;
+}
+
+.img_back {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: 30px solid rgb(48, 48, 209);
+    border-left: 30px solid rgb(235, 30, 30);
+    width: 1000px;
+    height: 425px;
+}
+
+.Atext {
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+    color: #fdc52c;
+}
+
+
+
+.h2_text_player {
+    font-size: 30px;
+    text-align: center;
+    font-family: monospace;
+    color: #181733;
+}
+
+.main_td {
+    background: #181733;
+    color: #dac8c8;
+    font-size: 25px;
+    font-family: monospace;
+    width: 250px;
+    padding: 10px;
+    border-spacing: none;
+    border: 1px solid #dac8c8;
+}
+
+.gg_td {
+    font-size: 23px;
+    font-family: monospace;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #181733;
+}
+
+
+.main_table {
+    border-spacing: 0px 0px;
+    border: 1px solid #181733;
+    text-align: center;
+}
+
+.captain {
+    color: red;
+    display: inline-block; 
+    position: relative;
+}
+
+.captain:hover::after {
+    font-size: 15px;
+
+    position: absolute;
+    content: attr(data-title);
+   background: white;
+   color: #181733;
+   width: 200px;
+   height: 20px;
+   
+   z-index: 1;
+   }
+
+.back {
+    text-align: center;
+    border-radius: 10px;
+    background: #dac8c8;
+    color: #181733;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.main {
+    text-align: center;
+    font-family: monospace;
+    color: #fdc52c;
+}
+
+   
